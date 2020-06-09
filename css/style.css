@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(0,0,0,0.1);
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 /* ------------ container ------------ */
@@ -17,7 +17,7 @@ body{
 .header{
     width: 380px;
     height:200px;
-    background-image: url('../img/bg0.png');
+    background-image: url('../img/bg.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0 0;
@@ -41,11 +41,11 @@ body{
 }
 #date{
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 60px;
+    left: 120px;
     color: #FFF;
     font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
+  font-family: 'Pacifico', cursive;
 }
 
 /* ------------ content ------------ */
@@ -55,9 +55,6 @@ body{
     max-height:350px;
     background-color: #FFF;
     overflow: auto;
-}
-.content::-webkit-scrollbar {
-    display: none;
 }
 .content ul{
     padding:0;
@@ -92,7 +89,7 @@ body{
     margin:0;
     font-size: 20px;
     left:50px;
-    top:5px;
+    top:10px;
     background-color: #FFF;
     max-width:285px;
 }
@@ -118,8 +115,9 @@ body{
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0 0 15px 15px;
 }
-.add-to-do i{
+.add-to-do i.te{
     position: absolute;
     font-size: 40px;
     color: #4162f6;
@@ -134,4 +132,18 @@ body{
     border: none;
     font-size: 20px;
     padding-left:10px;
+}
+
+.add-to-do .enter{
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    font-size: 30px;
+    color: #4162f6;
+}
+
+.add-to-do .enter:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 5px #c1c1d7;
+
 }
